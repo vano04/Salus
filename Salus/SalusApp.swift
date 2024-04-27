@@ -15,3 +15,6 @@ struct SalusApp: App {
         }
     }
 }
+#Preview {
+    ContentView()
+}

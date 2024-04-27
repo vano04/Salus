@@ -51,6 +51,7 @@
 		2659E69C2BDCD49A00CF2CE4 /* Salus */ = {
 			isa = PBXGroup;
 			children = (
+				2659E6AB2BDCD4C400CF2CE4 /* Views */,
 				2659E69D2BDCD49A00CF2CE4 /* SalusApp.swift */,
 				2659E69F2BDCD49A00CF2CE4 /* ContentView.swift */,
 				2659E6A12BDCD49B00CF2CE4 /* Assets.xcassets */,
@@ -65,6 +66,13 @@
 				2659E6A42BDCD49B00CF2CE4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2659E6AB2BDCD4C400CF2CE4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +283,8 @@
 				DEVELOPMENT_TEAM = 3QF4J963DJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +314,8 @@
 				DEVELOPMENT_TEAM = 3QF4J963DJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
