@@ -7,18 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		264E70912BDE44AC00A16497 /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264E70902BDE44AC00A16497 /* AppController.swift */; };
+		264E70972BDE4A6800A16497 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264E70962BDE4A6800A16497 /* CameraView.swift */; };
+		264E70992BDE4F2800A16497 /* CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264E70982BDE4F2800A16497 /* CameraModel.swift */; };
+		264E70AC2BDEA00400A16497 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264E70AB2BDEA00400A16497 /* ChatViewController.swift */; };
+		264E70BB2BDEA33400A16497 /* AlamofireDynamic in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 264E70B82BDEA33400A16497 /* AlamofireDynamic */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		2659E69E2BDCD49A00CF2CE4 /* SalusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2659E69D2BDCD49A00CF2CE4 /* SalusApp.swift */; };
-		2659E6A02BDCD49A00CF2CE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2659E69F2BDCD49A00CF2CE4 /* ContentView.swift */; };
 		2659E6A22BDCD49B00CF2CE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2659E6A12BDCD49B00CF2CE4 /* Assets.xcassets */; };
 		2659E6A52BDCD49B00CF2CE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2659E6A42BDCD49B00CF2CE4 /* Preview Assets.xcassets */; };
+		2659E6AF2BDDC76700CF2CE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2659E6AE2BDDC76700CF2CE4 /* ContentView.swift */; };
+		266346C72BDEA7B200F6948E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 266346C62BDEA7B200F6948E /* Alamofire */; };
+		266346C92BDEAA0B00F6948E /* ChatbotService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266346C82BDEAA0B00F6948E /* ChatbotService.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		264E70BA2BDEA33400A16497 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				264E70BB2BDEA33400A16497 /* AlamofireDynamic in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		264E70902BDE44AC00A16497 /* AppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
+		264E70962BDE4A6800A16497 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		264E70982BDE4F2800A16497 /* CameraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModel.swift; sourceTree = "<group>"; };
+		264E70AB2BDEA00400A16497 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		2659E69A2BDCD49A00CF2CE4 /* Salus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Salus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2659E69D2BDCD49A00CF2CE4 /* SalusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalusApp.swift; sourceTree = "<group>"; };
-		2659E69F2BDCD49A00CF2CE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2659E6A12BDCD49B00CF2CE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2659E6A42BDCD49B00CF2CE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2659E6AE2BDDC76700CF2CE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		266346C82BDEAA0B00F6948E /* ChatbotService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatbotService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +52,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				266346C72BDEA7B200F6948E /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		264E70872BDE444E00A16497 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				264E70982BDE4F2800A16497 /* CameraModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		264E70A62BDE9F4500A16497 /* AI */ = {
+			isa = PBXGroup;
+			children = (
+				266346C82BDEAA0B00F6948E /* ChatbotService.swift */,
+				264E70AB2BDEA00400A16497 /* ChatViewController.swift */,
+			);
+			path = AI;
+			sourceTree = "<group>";
+		};
+		264E70B52BDEA33400A16497 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2659E6912BDCD49A00CF2CE4 = {
 			isa = PBXGroup;
 			children = (
 				2659E69C2BDCD49A00CF2CE4 /* Salus */,
 				2659E69B2BDCD49A00CF2CE4 /* Products */,
+				264E70B52BDEA33400A16497 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,9 +103,11 @@
 		2659E69C2BDCD49A00CF2CE4 /* Salus */ = {
 			isa = PBXGroup;
 			children = (
+				264E70A62BDE9F4500A16497 /* AI */,
+				264E70872BDE444E00A16497 /* Models */,
+				2659E6B02BDDCE4100CF2CE4 /* Controllers */,
 				2659E6AB2BDCD4C400CF2CE4 /* Views */,
 				2659E69D2BDCD49A00CF2CE4 /* SalusApp.swift */,
-				2659E69F2BDCD49A00CF2CE4 /* ContentView.swift */,
 				2659E6A12BDCD49B00CF2CE4 /* Assets.xcassets */,
 				2659E6A32BDCD49B00CF2CE4 /* Preview Content */,
 			);
@@ -71,8 +125,18 @@
 		2659E6AB2BDCD4C400CF2CE4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2659E6AE2BDDC76700CF2CE4 /* ContentView.swift */,
+				264E70962BDE4A6800A16497 /* CameraView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		2659E6B02BDDCE4100CF2CE4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				264E70902BDE44AC00A16497 /* AppController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,12 +149,16 @@
 				2659E6962BDCD49A00CF2CE4 /* Sources */,
 				2659E6972BDCD49A00CF2CE4 /* Frameworks */,
 				2659E6982BDCD49A00CF2CE4 /* Resources */,
+				264E70BA2BDEA33400A16497 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Salus;
+			packageProductDependencies = (
+				266346C62BDEA7B200F6948E /* Alamofire */,
+			);
 			productName = Salus;
 			productReference = 2659E69A2BDCD49A00CF2CE4 /* Salus.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +187,9 @@
 				Base,
 			);
 			mainGroup = 2659E6912BDCD49A00CF2CE4;
+			packageReferences = (
+				266346C52BDEA7B200F6948E /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 2659E69B2BDCD49A00CF2CE4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -145,8 +216,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2659E6A02BDCD49A00CF2CE4 /* ContentView.swift in Sources */,
+				264E70972BDE4A6800A16497 /* CameraView.swift in Sources */,
+				266346C92BDEAA0B00F6948E /* ChatbotService.swift in Sources */,
+				2659E6AF2BDDC76700CF2CE4 /* ContentView.swift in Sources */,
+				264E70992BDE4F2800A16497 /* CameraModel.swift in Sources */,
 				2659E69E2BDCD49A00CF2CE4 /* SalusApp.swift in Sources */,
+				264E70AC2BDEA00400A16497 /* ChatViewController.swift in Sources */,
+				264E70912BDE44AC00A16497 /* AppController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +358,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Salus/Preview Content\"";
 				DEVELOPMENT_TEAM = 3QF4J963DJ;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
@@ -313,6 +390,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Salus/Preview Content\"";
 				DEVELOPMENT_TEAM = 3QF4J963DJ;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
@@ -356,6 +434,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		264E70A12BDE9F1D00A16497 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		266346C52BDEA7B200F6948E /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		264E70B82BDEA33400A16497 /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 264E70A12BDE9F1D00A16497 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+		266346C62BDEA7B200F6948E /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 266346C52BDEA7B200F6948E /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2659E6922BDCD49A00CF2CE4 /* Project object */;
 }
