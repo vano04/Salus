@@ -46,7 +46,9 @@ Open app
 
 Take picture
 
-Read measurements and send to health app
+Get response with potentially harmful ingredients 
+
+Ask further questions on ingredients with context aware chat with GPT-4
 
 ### Credits
 Ivan, Jin, Manuel
